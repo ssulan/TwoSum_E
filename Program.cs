@@ -24,10 +24,10 @@ namespace MyProject
             Console.WriteLine($"Output:[{indices[0]},{indices[1]}] ");
 
 
-            int[] indices2 = TwoSum(testArray1, target2);
+            int[] indice2 = TwoSum(testArray1, target2);
 
             Console.WriteLine("\nTest 2 result");
-            Console.WriteLine($"Output:[{indices2[0]},{indices2[1]}] ");
+            Console.WriteLine($"Output:[{indice2[0]},{indice2[1]}] ");
         }
 
         static int[] TwoSum(int[] nums, int target)
